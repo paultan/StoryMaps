@@ -84,7 +84,7 @@ html, body {
     function getStartSlide() {
         var slide = 0;
         if (urlParams.has('start_at_slide')) {
-            slide = parseInt(urlParams.get('start_at_slide'), 20);
+            slide = parseInt(urlParams.get('start_at_slide'), 10);
         }
         return slide;
     }
